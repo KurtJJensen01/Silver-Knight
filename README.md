@@ -30,3 +30,12 @@ To run the game locally:
 1. Clone the repository:
    ```bash
    git clone https://github.com/KurtJJensen01/Silver-Night.git
+
+## Notes on Repository
+
+This repository uses a `.gitignore` configured for Unity projects, which excludes:
+- Unity-generated folders (`Library/`, `Temp/`, `Obj/`)
+- Build output directories (`Build/`)
+- User-specific settings files
+
+Make sure to open the project in Unity and build it before running, as these generated files are not included in the repository.
